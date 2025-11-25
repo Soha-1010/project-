@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    .navbar{
+        border-bottom: 1px solid black;
+        margin: 10px 0px;
+        padding-bottom: 10px;
+        a{
+            text-transform: capitalize;
+            text-decoration: none;
+            font-size: 20px;
+            padding-right: 20px;
+            color: black;
+        }
+        #home{
+            padding-left: 500px;
+        }
+        #insta{
+            padding-left: 300px;
+        }
+    }
+    .title{
+        padding-top: 10px;
+        i{
+            font-size: 40px;
+            padding-left: 500px;
+        }
+        a{
+            font-size: 40px;
+            color: black;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+    .subnavbar{
+        border-bottom: 1px solid black;
+        margin: 10px 0px;
+        padding: 20px 0px;
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            text-decoration: none;
+            font-size: 20px;
+            padding-right: 30px;
+            color: black;
+        }
+        #featured{
+            padding-left: 400px;
+        }
+    }
+    .cards{
+        margin-left: 0%;
+
+        padding-top: 10px;
+        padding-left: 500px;
+        .card{
+            border: 1px solid black;
+            width: fit-content;
+            padding: 5px;
+            img{
+                width: 300px;
+                height: 200px;
+            }
+            h1{
+                text-transform: capitalize;
+                text-align: center;
+                font-size: 40px;
+            }
+            p{
+                width: 300px;
+                text-align: justify;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-bottom: 10px;
+            }
+            h2{
+                border-top: 1px solid pink;
+                padding-top: 10px;
+                font-size: 15px;
+            }
+        }
+    }
+    .footer{
+        padding: 5px;
+        border-radius: 20px;
+        margin: 5px;
+        background-color: darkblue;
+        #img{
+            font-size: 40px;
+            padding-left: 600px;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            border-bottom: 3px solid white;
+            text-transform: capitalize;
+            padding: 10px 0px;
+             color: white;
+        }
+        h2{
+            text-transform: capitalize;
+            text-align: center;
+            padding: 10px 0px;
+             color: white;
+        }
+        .icons{
+             color: white;
+            a{
+                
+                color: white;
+            }
+            #ig{
+                padding-left: 590px;
+            }
+        }
+    }
+}
